@@ -28,13 +28,13 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-  matrix = assembled_matrix
-  sorted = []
-  size = matrix.size
-  size.times do |x|
-    sorted << matrix[x].sort
-  end
-  sorted
+  matrix = assembled_matrix[].sort
+  # sorted = []
+  # size = matrix.size
+  # size.times do |x|
+  #   sorted << matrix[x].sort
+  # end
+  # sorted
 end
 
 def matrix_lookup(matrix, row, column)
