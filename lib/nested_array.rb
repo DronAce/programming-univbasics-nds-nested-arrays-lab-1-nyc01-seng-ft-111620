@@ -34,7 +34,6 @@ def sorted_matrix
     sorted << matrix[i].sort
   end
   sorted
-
   # size = matrix.size
   # size.times do |x|
   #   sorted << matrix[x].sort
