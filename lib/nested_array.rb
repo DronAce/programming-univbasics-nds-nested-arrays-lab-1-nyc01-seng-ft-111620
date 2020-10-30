@@ -30,16 +30,15 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   matrix = assembled_matrix
   sorted = []
-  for i in 0...matrix.size
-    sorted << matrix[i].sort
-  end
-  sorted
   # size = matrix.size
   # size.times do |x|
   #   sorted << matrix[x].sort
   # end
   # sorted
-
+  for i in 0...matrix.size
+    sorted << matrix[i].sort
+  end
+  sorted
 end
 
 def matrix_lookup(matrix, row, column)
