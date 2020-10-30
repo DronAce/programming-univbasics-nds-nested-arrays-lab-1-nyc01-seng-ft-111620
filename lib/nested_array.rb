@@ -29,7 +29,7 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   matrix = assembled_matrix
-  for i in 0..matrix.size
+  for i in 0...matrix.size
   sorted = matrix[i].sort
   # sorted = []
   # size = matrix.size
